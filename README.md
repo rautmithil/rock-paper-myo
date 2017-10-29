@@ -1,6 +1,7 @@
 # Myo-Rock-Paper-Scissors
 
-[Rock-Paper-Scissors](https://en.wikipedia.org/wiki/Rock-paper-scissors) game developed using Myo Armband, Python, Firebase and JavaScripts on Ubuntu. Project was cloned from [rock-paper-myo](https://github.com/HackerPack/rock-paper-myo). The original repo supports MacOS and Windows, this repo has support for Linux system. In this verion the user plays with a AI that learns the user input style.
+[Rock-Paper-Scissors](https://en.wikipedia.org/wiki/Rock-paper-scissors) game developed using Myo Armband, Python, Firebase and JavaScripts on Ubuntu. We us Amazon AWS to host out web game!
+Project was cloned from [rock-paper-myo](https://github.com/HackerPack/rock-paper-myo). The original repo supports MacOS and Windows, this repo has support for Linux system. In this verion the user plays with a AI that learns the user input style.
 
 #Getting Started
 
