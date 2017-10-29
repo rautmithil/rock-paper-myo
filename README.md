@@ -17,3 +17,5 @@ Try it for yourself by cloning this git repository and then
 2. Run RockPaperScissor.py
 4. Set up a simple HTTP server to access our web application.
 3. Log in to our application and woohoo.... Game on!
+
+Use the files in the rps-linux folder to run it on linux.
