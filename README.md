@@ -17,3 +17,5 @@ Try it for yourself by cloning this git repository and then
 4. Game on!
 
 Use the files in the RockPaperScissor to run it on Windowns and MacOs using Myo-Python.
+
+You can check out our game [website](http://smartrps.com/pages/index.html) to get a live demo!!!
