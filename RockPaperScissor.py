@@ -13,7 +13,7 @@ class Listener(libmyo.DeviceListener):
     stop the Hub.
     """
 
-    interval = 0.5;  # Output only 0.05 seconds
+    interval = 0.2;  # Output only 0.05 seconds
     firebase = firebase.FirebaseApplication('https://rock-paper-scissors-game.firebaseio.com/', None)
 
     def __init__(self):
@@ -60,10 +60,8 @@ class Listener(libmyo.DeviceListener):
 
     def getCurrentSign(self):
         sign = str(self.pose)
-        # wave_in is the pack symbol cheat code bitches !!!!
-        if('wave_in' in sign):
-            return 4
-        elif (('wave_out' in sign)):
+
+        if (('double_tap' in sign)):
             return 3
         elif('fist' in sign):
             return 1
